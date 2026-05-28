@@ -173,7 +173,7 @@ fun Dashboard(modifier: Modifier = Modifier, clockViewModel: ClockViewModel) {
                         Text(text = "Select a valid base time",
                             color = Color.Red,
                             style = com.example.chessclock.ui.theme.ChessClockTheme.typography.matrix,
-                            fontSize = 25.sp,
+                            fontSize = 20.sp,
                             modifier = Modifier.padding(0.dp,10.dp,0.dp,0.dp))
                     }
                     else{
@@ -321,7 +321,7 @@ fun Dashboard(modifier: Modifier = Modifier, clockViewModel: ClockViewModel) {
                         Text(text = "Select a valid base time",
                             color = Color.Red,
                             style = com.example.chessclock.ui.theme.ChessClockTheme.typography.matrix,
-                            fontSize = 25.sp,
+                            fontSize = 20.sp,
                             modifier = Modifier.padding(0.dp,0.dp,0.dp,10.dp))
                     }
                     else{
